@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Study/OOP/MR2018/natalia/Merge/Merge.cpp
+Merge.h
+D:/Study/OOP/MR2018/natalia/Merge/Merge.h
+iostream
+-
+
+D:/Study/OOP/MR2018/natalia/Merge/Merge.h
+

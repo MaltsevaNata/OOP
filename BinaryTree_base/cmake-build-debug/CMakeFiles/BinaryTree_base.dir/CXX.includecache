@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/RB_tree.cpp
+RB_tree.h
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/RB_tree.h
+base_tree.h
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/base_tree.h
+
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/RB_tree.h
+base_tree.h
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/base_tree.h
+binary_tree.h
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/binary_tree.h
+
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/base_tree.h
+iostream
+-
+iomanip
+-
+
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/binary_tree.h
+base_tree.h
+D:/Study/OOP/MR2018/natalia/BinaryTree_base/base_tree.h
+iostream
+-
+iomanip
+-
+

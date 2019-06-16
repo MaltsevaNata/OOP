@@ -6,9 +6,8 @@ void spline::build_spline(void){
     //задаем сплайн как N кубических полиномов в виде
     //spline[hi] = ai + bi*hi + ci*hi^2 + di*hi^3, где hi = si - s(i-1)
     double spline[N];
-    spline[0] = 0; //граничные условия
+    spline[0] = h[0] = 0; //граничные условия
     spline[N-1] = h[N-1] ;
-    h[0] = 1.1;
     for (int i = 1; i < N; i++) {
         h[i] = s[i] - s[i-1];
         spline[i] = s[i];

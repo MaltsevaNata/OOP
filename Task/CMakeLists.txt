@@ -1,6 +1,10 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.9)
 project(Task)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Task spline.cpp spline.h main.cpp)
+add_library(spline spline.cpp spline.h)
+
+add_executable(Task main.cpp)
+
+target_link_libraries(Task spline)
